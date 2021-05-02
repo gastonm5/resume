@@ -15,13 +15,22 @@ export const DegreeSection = ({ degree }) => {
                 <span className="font-exo text-title">{from}</span>
             </div>
             <div>
-                <div className="flex border-b-1 border-white">
+                <div className="flex flex-col sm:items-end sm:flex-row border-b-1 border-white">
                     <span className="font-exo font-bold text-2xl text-title">
                         {university}
                     </span>
+                    <div className="sm:hidden justify-between">
+                        <span className="font-exo text-title">{from}</span> -{' '}
+                        <span className="font-exo text-title">{to}</span>
+                    </div>
+                    <span className="hidden sm:inline mx-2 sm:pb-1">-</span>
+                    <span className="font-exo font-light text-sm sm:pb-1">
+                        <i className="fas fa-map-pin mr-1"></i>
+                        {location}
+                    </span>
                 </div>
 
-                <p className="font-exo font-medium text-xl mt-2">
+                <p className="font-exo font-medium text-xl mt-1 sm:mt-2">
                     {degreeTitle}
                 </p>
             </div>

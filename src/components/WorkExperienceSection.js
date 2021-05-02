@@ -29,6 +29,10 @@ export const WorkExperienceSection = ({ experience }) => {
                         <span className="font-exo font-bold text-2xl text-title">
                             {name}
                         </span>
+                        <div className="sm:hidden flex-col justify-between">
+                            <span className="font-exo text-title">{from}</span>{' '}
+                            - <span className="font-exo text-title">{to}</span>
+                        </div>
                         <span className="hidden sm:inline mx-2">-</span>
                         <span className="hidden sm:inline font-exo font-light text-sm">
                             <i className="fas fa-map-pin mr-1"></i>

@@ -63,11 +63,18 @@
     ],
     "education": [
         {
-            "university": "National University of Technology",
+            "university": "UTN - FRBA",
             "location": "Buenos Aires, Argentina",
             "degreeTitle": "Information Systems Engineer",
             "from": "2012",
             "to": "2019"
+        },
+        {
+            "university": "San José Institute",
+            "location": "Buenos Aires, Argentina",
+            "degreeTitle": "Bachelors Degree in Electronics",
+            "from": "2006",
+            "to": "2011"
         }
     ],
     "contacts": [
