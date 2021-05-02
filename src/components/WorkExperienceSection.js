@@ -25,7 +25,7 @@ export const WorkExperienceSection = ({ experience }) => {
             </div>
             <div>
                 <div className="flex justify-between border-b-1 border-white">
-                    <a href={`https://www.${link}`}>
+                    <a href={`https://www.${link}`} target="_blank">
                         <span className="font-exo font-bold text-2xl text-accent">
                             {name}
                         </span>
@@ -39,7 +39,7 @@ export const WorkExperienceSection = ({ experience }) => {
                             {location}
                         </span>
                     </a>
-                    <a href={`https://www.${link}`}>
+                    <a href={`https://www.${link}`} target="_blank">
                         <span className="font-exo font-medium text-xl">
                             {link}
                         </span>
