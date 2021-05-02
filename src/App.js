@@ -3,17 +3,23 @@ import { ContactLine } from './components/ContactLine'
 import { DegreeSection } from './components/DegreeSection'
 import { Title } from './components/Title'
 import { WorkExperienceSection } from './components/WorkExperienceSection'
-import profilePoc from './profile_pic.jpg'
+import profilePoc from './assets/profile_pic.jpg'
+import resumePDF from './assets/resume.pdf'
 import profile from './profile.json'
 
 function App() {
     return (
         <div className="w-screen bg-gray-300">
             <div className="flex flex-col sm:h-screen sm:flex-row sm:max-w-6xl sm:m-auto">
-                <div
-                    className="flex flex-col justify-between md:w-1/3 text-white font-exo p-4"
-                    style={{ backgroundColor: '#132227' }}
+                <a
+                    href={resumePDF}
+                    target="_blank"
+                    download="gaston_mazzeo_cv.pdf"
+                    className="flex justify-center items-center rounded-full w-20 h-20 fixed bottom-4 right-4 shadow-xl bg-accent"
                 >
+                    <i className="fas fa-download text-4xl text-secondary"></i>
+                </a>
+                <div className="flex flex-col justify-between md:w-1/3 text-white font-exo p-4 bg-primary">
                     <div>
                         <div className="flex flex-col items-center">
                             <img
@@ -21,13 +27,13 @@ function App() {
                                 alt="profile_pic"
                                 src={profilePoc}
                             />
-                            <p className="text-2xl font-semibold mt-4 text-title">
+                            <p className="text-2xl font-semibold mt-4 text-accent">
                                 {profile.name}
                             </p>
                             <p className="text-xl">{profile.jobTitle}</p>
                             <p>
                                 {profile.location}{' '}
-                                <i className="fas fa-map-pin text-title"></i>
+                                <i className="fas fa-map-pin text-accent"></i>
                             </p>
                         </div>
 
@@ -56,12 +62,9 @@ function App() {
                     </div>
                 </div>
 
-                <div
-                    className="text-black px-4 sm:px-12 overflow-y-scroll w-screen text-white pt-4"
-                    style={{ backgroundColor: '#2c4b57' }}
-                >
+                <div className="text-black px-4 sm:px-12 overflow-y-scroll w-screen text-white pt-4 bg-secondary">
                     <div className="border-solid border-b-2 border-light-blue-500">
-                        <p className="font-exo text-3xl text-title font-bold">
+                        <p className="font-exo text-3xl text-accent font-bold">
                             WORK EXPERIENCE
                         </p>
                     </div>
@@ -76,7 +79,7 @@ function App() {
                     </div>
 
                     <div className="border-solid border-b-2 border-light-blue-500">
-                        <p className="font-exo text-3xl text-title">
+                        <p className="font-exo text-3xl text-accent">
                             EDUCATION
                         </p>
                     </div>

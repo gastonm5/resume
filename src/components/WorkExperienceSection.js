@@ -20,18 +20,18 @@ export const WorkExperienceSection = ({ experience }) => {
                 <Pill />
             </div>
             <div className="hidden sm:flex flex-col justify-between ml-2 mr-8 my-1">
-                <span className="font-exo text-title">{to}</span>
-                <span className="font-exo text-title">{from}</span>
+                <span className="font-exo text-accent">{to}</span>
+                <span className="font-exo text-accent">{from}</span>
             </div>
             <div>
                 <div className="flex justify-between border-b-1 border-white">
                     <a href={`https://www.${link}`}>
-                        <span className="font-exo font-bold text-2xl text-title">
+                        <span className="font-exo font-bold text-2xl text-accent">
                             {name}
                         </span>
                         <div className="sm:hidden flex-col justify-between">
-                            <span className="font-exo text-title">{from}</span>{' '}
-                            - <span className="font-exo text-title">{to}</span>
+                            <span className="font-exo text-accent">{from}</span>{' '}
+                            - <span className="font-exo text-accent">{to}</span>
                         </div>
                         <span className="hidden sm:inline mx-2">-</span>
                         <span className="hidden sm:inline font-exo font-light text-sm">
@@ -54,7 +54,7 @@ export const WorkExperienceSection = ({ experience }) => {
                     {description}
                 </p>
                 <div className="font-exo font-regular text-base mt-4">
-                    <span className="text-title font-bold">Tech Stack</span>:{' '}
+                    <span className="text-accent font-bold">Tech Stack</span>:{' '}
                     <span>{techStack.join(', ')}.</span>
                 </div>
             </div>

@@ -9,11 +9,15 @@ module.exports = {
         },
         textColor: (theme) => ({
             ...theme('colors'),
-            title: '#efd80a'
+            primary: '#132227',
+            secondary: '#2c4b57',
+            accent: '#efd80a'
         }),
         backgroundColor: (theme) => ({
             ...theme('colors'),
-            pill: '#efd80a'
+            primary: '#132227',
+            secondary: '#2c4b57',
+            accent: '#efd80a'
         })
     },
     variants: {

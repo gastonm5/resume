@@ -11,17 +11,17 @@ export const DegreeSection = ({ degree }) => {
                 <Pill />
             </div>
             <div className="hidden sm:flex flex-col justify-between ml-2 mr-8 my-1">
-                <span className="font-exo text-title">{to}</span>
-                <span className="font-exo text-title">{from}</span>
+                <span className="font-exo text-accent">{to}</span>
+                <span className="font-exo text-accent">{from}</span>
             </div>
             <div>
                 <div className="flex flex-col sm:items-end sm:flex-row border-b-1 border-white">
-                    <span className="font-exo font-bold text-2xl text-title">
+                    <span className="font-exo font-bold text-2xl text-accent">
                         {university}
                     </span>
                     <div className="sm:hidden justify-between">
-                        <span className="font-exo text-title">{from}</span> -{' '}
-                        <span className="font-exo text-title">{to}</span>
+                        <span className="font-exo text-accent">{from}</span> -{' '}
+                        <span className="font-exo text-accent">{to}</span>
                     </div>
                     <span className="hidden sm:inline mx-2 sm:pb-1">-</span>
                     <span className="font-exo font-light text-sm sm:pb-1">
