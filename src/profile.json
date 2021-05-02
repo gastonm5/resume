@@ -12,7 +12,7 @@
             "jobTitle": "iOS Engineer",
             "from": "2019",
             "to": "Present",
-            "description": "- Currently working on watchOS apps using SwiftUI and Combine.\n- Developed and delivered several iOS apps for USA clients, like dating or location based apps.\n- Worked with ARKit to bring different kind of experiences, like AR guided navigation or AR LEGO-like construction game.\n - Participated as a writer of “Swiftly Highlights” company articles where we summarize the best blog posts of the month related to the iOS world.",
+            "description": "- Currently working on watchOS apps using SwiftUI and Combine.\n- Developed and delivered several iOS apps for USA clients, like dating or location-based apps.\n- Worked with ARKit to bring different kinds of experiences, like AR guided navigation or AR LEGO-like construction game.\n- Participated as a writer of “Swiftly Highlights” articles, where we summarize the month's best blog posts related to the iOS world.",
             "techStack": [
                 "iOS",
                 "watchOS",
@@ -34,7 +34,7 @@
             "jobTitle": "iOS Engineer",
             "from": "2018",
             "to": "2019",
-            "description": "- Developed and maintained a banking app for one the most important banks in Jamaica to allow their users access to the home banking from their phones.",
+            "description": "- Developed and maintained a banking app for one of the most important banks in Jamaica to allow their users access to home banking from their phones.",
             "techStack": ["iOS", "Swift", "UIKit", "RxSwift"]
         },
         {
@@ -46,7 +46,7 @@
             "jobTitle": "Mobile Engineer",
             "from": "2015",
             "to": "2018",
-            "description": "- Lead and developed cross-platform apps based on Apache Cordova using Angular 2+ as UI Framework for energy & gas supplier clients from Argentina.\n- Developed a few native iOS and Android app where the main feature involved using OpenCV to do OCR on different kinds of paychecks.\n- Built an IoT system for green energy based on solar panels, where an Arduino was sending telemetry from one of the equipments to a server to be showed on a web interfaced based built on Angular 2.\n - Participated on estimates for several projects in the company pipeline.",
+            "description": "- Lead and developed cross-platform apps based on Apache Cordova using Angular 2+ as UI Framework for energy & gas supplier clients from Argentina.\n- Developed a few native iOS and Android app where the main feature involved using OpenCV to do OCR on different kinds of paychecks.\n- Built an IoT system for green energy based on solar panels, where an Arduino was sending telemetry from one of the types of equipment to a server to be showed on a web interface based built on Angular 2.\n- Participated in estimates for several projects in the company pipeline.",
             "techStack": [
                 "Android",
                 "iOS",
