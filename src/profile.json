@@ -1,0 +1,95 @@
+{
+    "name": "Gaston Mazzeo",
+    "jobTitle": "iOS Engineer",
+    "location": "Prague, Czech Republic",
+    "workExperiences": [
+        {
+            "company": {
+                "name": "STRV",
+                "link": "strv.com"
+            },
+            "location": "Prague, Czech Republic",
+            "jobTitle": "iOS Engineer",
+            "from": "2019",
+            "to": "Present",
+            "description": "- Currently working on watchOS apps using SwiftUI and Combine.\n- Developed and delivered several iOS apps for USA clients, like dating or location based apps.\n- Worked with ARKit to bring different kind of experiences, like AR guided navigation or AR LEGO-like construction game.\n - Participated as a writer of “Swiftly Highlights” company articles where we summarize the best blog posts of the month related to the iOS world.",
+            "techStack": [
+                "iOS",
+                "watchOS",
+                "Swift",
+                "UIKit",
+                "SwiftUI",
+                "Combine",
+                "RxSwift",
+                "ARKit",
+                "Vapor"
+            ]
+        },
+        {
+            "company": {
+                "name": "Overactive",
+                "link": "overactive.com"
+            },
+            "location": "Buenos Aires, Argentina",
+            "jobTitle": "iOS Engineer",
+            "from": "2018",
+            "to": "2019",
+            "description": "- Developed and maintained a banking app for one the most important banks in Jamaica to allow their users access to the home banking from their phones.",
+            "techStack": ["iOS", "Swift", "UIKit", "RxSwift"]
+        },
+        {
+            "company": {
+                "name": "Baufest",
+                "link": "baufest.com"
+            },
+            "location": "Buenos Aires, Argentina",
+            "jobTitle": "Mobile Engineer",
+            "from": "2015",
+            "to": "2018",
+            "description": "- Lead and developed cross-platform apps based on Apache Cordova using Angular 2+ as UI Framework for energy & gas supplier clients from Argentina.\n- Developed a few native iOS and Android app where the main feature involved using OpenCV to do OCR on different kinds of paychecks.\n- Built an IoT system for green energy based on solar panels, where an Arduino was sending telemetry from one of the equipments to a server to be showed on a web interfaced based built on Angular 2.\n - Participated on estimates for several projects in the company pipeline.",
+            "techStack": [
+                "Android",
+                "iOS",
+                "Objective-C",
+                "Java",
+                "Javascript",
+                "Apache Cordova",
+                "Angular 2+",
+                "IoT",
+                "Arduino",
+                "OpenCV"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "university": "National University of Technology",
+            "location": "Buenos Aires, Argentina",
+            "degreeTitle": "Information Systems Engineer",
+            "from": "2012",
+            "to": "2019"
+        }
+    ],
+    "contacts": [
+        {
+            "description": "linkedin.com/in/gastonmazzeo",
+            "link": "https://www.linkedin.com/in/gastonmazzeo",
+            "icon": "fab fa-linkedin"
+        },
+        {
+            "description": "github.com/gastonm5",
+            "link": "https://github.com/gastonm5",
+            "icon": "fab fa-github"
+        },
+        {
+            "description": "instagram.com/gastonmazzeo5",
+            "link": "https://www.instagram.com/gastonmazzeo5",
+            "icon": "fab fa-instagram"
+        },
+        {
+            "description": "mazzeo.gn@gmail.com",
+            "link": "mailto:mazzeo.gn@gmail.com",
+            "icon": "fas fa-envelope"
+        }
+    ]
+}
